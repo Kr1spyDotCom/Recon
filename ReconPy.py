@@ -42,7 +42,7 @@ def PingAndDisplay(ip_address):
         print(f">>Cihaz Bulundu : IP - {ip_address}")
         
 def DisplayConnectedDevices():
-    print("\n>>Cihazların MAC Adreslerini bulunuyor...")
+    print("\n>>Finding MAC Addresses of Devices...")
 
     if platform.system() == "Windows":
         command = ["C:\\Windows\\System32\\arp.exe", "-a"]
